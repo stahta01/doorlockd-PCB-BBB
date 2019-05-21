@@ -26,8 +26,8 @@ R1	R         (ui led 1)
 R11	R         (ui bicolor led) 
 R14	R         (ui tricolor led red)
 R15	R         (ui tricolor led green)
-R16	R         (onboard led) 
-R17	R         
+R16	100 ohm   (onboard led) 
+R17	2k2 ohm         
 R2	pull up   (button 1)
 R3	220 ohm   (button 1)
 R4	R         (ui led 2)
