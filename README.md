@@ -11,16 +11,16 @@ D1	LED
 D2	1N4007
 J1	Conn 01x02
 J10	Conn 01x03
-J11	Barrel Jack Switch
+J11	Barrel Jack (Switch)
 J12	Conn 01x08
 J13	Conn 01x02
-J14	Conn 01x02
+J14	Conn 01x02 + Jumper 
 J2	Conn 01x02
 J3	Conn 01x02
 J4	Conn 01x02
 J8	Conn 01x02
-P8	BeagleBone Black Header
-P9	BeagleBone Black Header
+P8	BeagleBone Black Header (Conn 23x02 backside of print) 
+P9	BeagleBone Black Header (Conn 23x02 backside of print) 
 Q1	STU60N3LH5
 R1	R         (ui led 1)
 R11	R         (ui bicolor led) 
