@@ -75,5 +75,6 @@ to enable these pins you need to disable the onboard harware in '/boot/uEnv.txt'
 
 To enable UILED1 and 2, and the  bicolor LED disable HDMI support:
 <code> disable_uboot_overlay_video=1 </code>
+
 To enable button1 and 2:
 <code> disable_uboot_overlay_emmc=1 </code>
