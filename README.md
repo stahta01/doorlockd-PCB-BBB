@@ -71,10 +71,13 @@ IO P9_42 UI_TriLED1g ( mcasp0_pins (audio?) )
 
 ## Oops..
 I've used some already used pins by the onboard hardware.
-to enable these pins you need to disable the onboard harware in '/boot/uEnv.txt'
+to enable these pins you need to disable the onboard harware in <code>/boot/uEnv.txt</code>
 
 To enable UILED1 and 2, and the  bicolor LED disable HDMI support:
-<code> disable_uboot_overlay_video=1 </code>
+<pre> disable_uboot_overlay_video=1 </pre>
 
 To enable button1 and 2:
-<code> disable_uboot_overlay_emmc=1 </code>
+<pre> disable_uboot_overlay_emmc=1 </pre>
+
+To enable Tricolor LED:
+<pre>disable_uboot_overlay_audio=1 </pre>
