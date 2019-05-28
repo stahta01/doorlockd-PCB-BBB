@@ -45,12 +45,12 @@ blue 4 ohm
 ### connected IO ports
 <pre>
    P8_01/02 GND
-IO P8_21 Button2
-IO P8_23 Button1
-IO P8_34 UILED1
-IO P8_36 UILED2
-IO P8_45 UI_BiLED1g
-IO P8_46 UI_BiLED1r
+IO P8_21 Button2     ( MMC1_CLCK )
+IO P8_23 Button1     ( MMC1_DAT4 )
+IO P8_34 UILED1      ( LCD_DATA11 )
+IO P8_36 UILED2      ( LCD_DATA10 )
+IO P8_45 UI_BiLED1g  ( LCD_DATA0 )
+IO P8_46 UI_BiLED1r  ( LCD_DATA1 )
 
 
    P9_01/02 GND
@@ -63,7 +63,7 @@ IO P9_18 RC522_MOSI
 IO P9_21 RC522_MISO
 IO P9_22 RC522_SCK
 IO P9_23 RC522_RST
-IO P9_28 UI_TriLED1r
-IO P9_42 UI_TriLED1g
+IO P9_28 UI_TriLED1r ( MCASP0 .. (audio?) )
+IO P9_42 UI_TriLED1g ( mcasp0_pins (audio?) )
    P9_43..46 GND
 </pre>
