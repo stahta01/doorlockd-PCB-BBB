@@ -67,3 +67,9 @@ IO P9_28 UI_TriLED1r ( MCASP0 .. (audio?) )
 IO P9_42 UI_TriLED1g ( mcasp0_pins (audio?) )
    P9_43..46 GND
 </pre>
+
+
+##Oops.., 
+####I've used some already used pins. 
+to enable UILED1 and 2, and the  bicolor LED disable HDMI support:
+<code> disable_uboot_overlay_video=1 </code>
