@@ -885,12 +885,6 @@ F 3 "~" H 8350 1560 50  0001 C CNN
 	1    8300 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 1600 8650 1600
-Wire Wire Line
-	8650 1600 8650 1850
-Wire Wire Line
-	8650 1850 8600 1850
 $Comp
 L Device:Q_NMOS_GDS Q1
 U 1 1 5CC1982A
@@ -1107,4 +1101,6 @@ F 3 "~" H 10500 1050 50  0001 C CNN
 	1    10500 1050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8600 1700 8600 1850
 $EndSCHEMATC

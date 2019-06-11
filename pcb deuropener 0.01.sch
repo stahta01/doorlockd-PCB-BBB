@@ -1091,10 +1091,10 @@ F 3 "~" H 9800 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5CD22EF9
 P 10500 1050
-F 0 "#LOGO?" H 10500 1325 50  0001 C CNN
+F 0 "#LOGO1" H 10500 1325 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10500 825 50  0001 C CNN
 F 2 "" H 10500 1050 50  0001 C CNN
 F 3 "~" H 10500 1050 50  0001 C CNN
