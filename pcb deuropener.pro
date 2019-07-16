@@ -1,4 +1,4 @@
-update=Thursday, 18 April 2019 at 10:48:05
+update=Tuesday, 11 June 2019 at 15:54:15
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=pcb deuropener 0.01.net
+LastNetListRead=pcb deuropener.net
 PadDrill=1.016
 PadDrillOvalY=1.016
 PadSizeH=1.7272
