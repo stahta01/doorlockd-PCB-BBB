@@ -668,11 +668,11 @@ F 3 "~" H 3050 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2900 4250 2    50   Input ~ 0
-IO-P8_13-UI_TriLED1r
+IO-P8_13-UI_DuoLED1r
 Text Notes 3450 4100 2    50   ~ 0
-UI tricolor LED 
+UI duo LED 
 Text GLabel 2900 5050 2    50   Input ~ 0
-IO-P8_19-UI_TriLED1g
+IO-P8_19-UI_DuoLED1g
 Wire Notes Line
 	2800 5150 2800 4000
 Wire Notes Line
@@ -786,9 +786,9 @@ IO-P9_14-UILED1
 Text GLabel 2700 1850 2    50   Input ~ 0
 IO-P9_16-UILED2
 Text GLabel 4900 1750 0    50   Input ~ 0
-IO-P8_13-UI_TriLED1r
+IO-P8_13-UI_DuoLED1r
 Text GLabel 4900 2050 0    50   Input ~ 0
-IO-P8_19-UI_TriLED1g
+IO-P8_19-UI_DuoLED1g
 Text GLabel 5400 1950 2    50   Input ~ 0
 IO-P8_18-Button2
 Text GLabel 4900 1950 0    50   Input ~ 0
