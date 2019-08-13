@@ -47,3 +47,12 @@ J12		PinHeader	RFID RC522
 J13		PinHeader	Solenoid 12V
 J14		PinHeader	jumper
 P8,P9	BeagleBone_Black_Header
+
+
+### Ω LED 1,2,DuoLED
+color	ohm
+red   	100 
+green 	 60 
+yellow	 48 
+blue  	  4
+
