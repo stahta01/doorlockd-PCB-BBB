@@ -1,0 +1,49 @@
+# Info on PCB deuropener rev0.01
+
+# Notes/Bugs: 
+(none up to now)
+
+# GPIO
+
+IO	P8_17	Button1
+IO	P8_18	Button2
+IO	P8_09	Buzzer
+IO	P9_15	RC522_IRQ
+IO	P9_21	RC522_MISO
+IO	P9_18	RC522_MOSI
+IO	P9_23	RC522_RST
+IO	P9_22	RC522_SCK
+IO	P9_17	RC522_SDA
+IO	P9_12	Solenoid
+IO	P9_14	UILED1
+IO	P9_16	UILED2
+IO	P8_19	UI_DuoLED1g
+IO	P8_13	UI_DuoLED1r
+
+
+## Components 
+D4,D2	1N4007
+D3,D1	LED (red)
+Q2,Q1	STU60N3LH5
+C1		1uF 
+C2		1uF
+C3		470u
+R1		Ω LED1 
+R2,R5	pull_up
+R3,R6	220
+R4		Ω LED2
+R7,R16	100
+R8,R17	2k2
+R14,R15	Ω DuoLED
+U1		TSR_1-2450
+J1		PinHeader	LED 1
+J2		PinHeader	Button 2
+J4		PinHeader	Button 1
+J3		PinHeader	LED 2
+J10		PinHeader	Duo LED
+J11		Barrel_Jack_Switch
+J5		PinHeader	Buzzer 12V
+J12		PinHeader	RFID RC522
+J13		PinHeader	Solenoid 12V
+J14		PinHeader	jumper
+P8,P9	BeagleBone_Black_Header
