@@ -71,24 +71,3 @@ Choose the resistors based on the LEDs you use.
 |IO|P8_09|Buzzer|
 
 
-## Oops.. Rev. V0.01 bugs:
-### Wrong GPIO PINs
-I've used some already used pins by the onboard hardware.
-to enable these pins you need to disable the onboard harware in <code>/boot/uEnv.txt</code>
-
-To enable UILED1 and 2, and the  bicolor LED disable HDMI support:
-<pre> disable_uboot_overlay_video=1 </pre>
-
-To enable button1 and 2 , disable internal Flash disk, you need to boot from SDcard:
-<pre> disable_uboot_overlay_emmc=1 </pre>
-
-To enable Tricolor LED , disable internal audio:
-<pre>disable_uboot_overlay_audio=1 </pre>
-
-### barrel jack footprint 
-pin1 12V
-pin2 GND
-pin3 ...
-
-(quick fix , create bridge between pin3 and pin2)
-
