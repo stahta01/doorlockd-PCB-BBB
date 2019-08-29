@@ -3,70 +3,71 @@
 Kicad drawing for doorlockd electronics on a Beagleboard black cape.
 
 ### component list
-<pre>
-C1    1uF Keramisch
-C2	   1uF Keramisch
-C3	   470u
-D1	   LED
-D2    1N4007
-J1    Conn 01x02
-J10	Conn 01x03
-J11	Barrel Jack (Switch)
-J12	Conn 01x08
-J13	Conn 01x02
-J14	Conn 01x02 + Jumper 
-J2	   Conn 01x02
-J3	   Conn 01x02
-J4	   Conn 01x02
-J8	   Conn 01x02
-P8	   BeagleBone Black Header (Conn 23x02 backside of print) 
-P9	   BeagleBone Black Header (Conn 23x02 backside of print) 
-Q1	   STU60N3LH5
-R1	   100 ohm   (ui led 1)
-R11	R         (ui bicolor led) 
-R14	R         (ui tricolor led red)
-R15	R         (ui tricolor led green)
-R16	100 ohm   (onboard led) 
-R17	2k2 ohm         
-R2	   pull up   (button 1)
-R3	   220 ohm   (button 1)
-R4	   100 ohm   (ui led 2)
-R5	   pull up   (button 2)
-R6	   220 ohm   (button 2)
-U1	   TSR 1-2450
-</pre>
+|Ref| |Value|
+| --- | --- | --- |
+|C1|C|1uF |
+|C2|C|1uF|
+|C3|CP|470u|
+|D1|LED|LED|
+|D2|1N4007|1N4007|
+|D3|LED|LED|
+|D4|1N4007|1N4007|
+|J1|Conn_01x02|LED 1|
+|J10|Conn_01x03|Duo LED|
+|J11|Barrel_Jack_Switch|Barrel_Jack_Switch|
+|J12|Conn_01x08|RFID RC522|
+|J13|Conn_01x02|Solenoid 12V|
+|J14|Conn_01x02|jumper|
+|J2|Conn_01x02|Button 2|
+|J3|Conn_01x02|LED 2|
+|J4|Conn_01x02|Button 1|
+|J5|Conn_01x02|Buzzer 12V|
+|P8|Conn_02x23_Odd_Even|BeagleBone_Black_Header|
+|P9|Conn_02x23_Odd_Even|BeagleBone_Black_Header|
+|Q1|Q_NMOS_GDS|STU60N3LH5|
+|Q2|Q_NMOS_GDS|STU60N3LH5|
+|R1|R|Ω LED1 |
+|R14|R|Ω DuoLED|
+|R15|R|Ω DuoLED|
+|R16|R|100|
+|R17|R|2k2|
+|R2|R|pull_up|
+|R3|R|220|
+|R4|R|Ω LED2|
+|R5|R|pull_up|
+|R6|R|220|
+|R7|R|100|
+|R8|R|2k2|
+|U1|TSR_1-2450|TSR_1-2450|
 
-UI Led resistors:
-red LED 100 ohm
-green LED 60 ohm
-yellow LED 48 ohm
-blue 4 ohm
+#### LED resistor notes
+Choose the resistors based on the LEDs you use.
+
+|Led |resistors|
+| --- | ---: |
+|red | 100 ohm|
+|green | 60 ohm|
+|yellow | 48 ohm|
+|blue |4 ohm|
+
 
 ### connected IO ports
-<pre>
-   P8_01/02 GND
-IO P8_21 Button2     ( MMC1_CLCK )
-IO P8_23 Button1     ( MMC1_DAT4 )
-IO P8_34 UILED1      ( LCD_DATA11 )
-IO P8_36 UILED2      ( LCD_DATA10 )
-IO P8_45 UI_BiLED1g  ( LCD_DATA0 )
-IO P8_46 UI_BiLED1r  ( LCD_DATA1 )
-
-
-   P9_01/02 GND
-   P9_03/04 +3V3
-   P9_05/06 +5V
-IO P9_14 Solenoid
-IO P9_15 RC522_IRQ
-IO P9_17 RC522_SDA
-IO P9_18 RC522_MOSI
-IO P9_21 RC522_MISO
-IO P9_22 RC522_SCK
-IO P9_23 RC522_RST
-IO P9_28 UI_TriLED1r ( MCASP0 .. (audio?) )
-IO P9_42 UI_TriLED1g ( mcasp0_pins (audio?) )
-   P9_43..46 GND
-</pre>
+| |port|name|
+| --- | --- | --- |
+|IO|P8_17|Button1|
+|IO|P9_12|Solenoid|
+|IO|P9_14|UILED1|
+|IO|P8_18|Button2|
+|IO|P9_17|RC522_SDA|
+|IO|P9_22|RC522_SCK|
+|IO|P9_18|RC522_MOSI|
+|IO|P9_21|RC522_MISO|
+|IO|P9_15|RC522_IRQ|
+|IO|P9_23|RC522_RST|
+|IO|P8_13|UI_DuoLED1r|
+|IO|P8_19|UI_DuoLED1g|
+|IO|P9_16|UILED2|
+|IO|P8_09|Buzzer|
 
 
 ## Oops.. Rev. V0.01 bugs:
