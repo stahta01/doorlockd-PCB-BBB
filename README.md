@@ -1,6 +1,7 @@
 # doorlockd-PCB-BBB
 
 Kicad drawing for doorlockd electronics on a Beagleboard black cape.
+![Preview doorlockd-PCB-BBB Rev0.02](https://raw.githubusercontent.com/wie-niet/doorlockd-PCB-BBB/master/preview-rev0.02.png)
 
 ### component list
 |Ref| |Value|
