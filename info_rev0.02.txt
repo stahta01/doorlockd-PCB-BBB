@@ -1,7 +1,9 @@
-# Info on PCB deuropener rev0.01
+# Info on PCB deuropener rev0.02
 
 # Notes/Bugs: 
-(none up to now)
+
+## printed output names of "Buzzer" and "Solenoid" where mixed up. Fixed in rev0.02.1
+The printed names of Buzzer and Solenoid where mixed up in rev0.02. make sure you use J13 for Solenoid and J5 for Buzzer or doorbell.
 
 # GPIO
 
