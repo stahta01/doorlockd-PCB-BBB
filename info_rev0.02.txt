@@ -3,7 +3,7 @@
 # Notes/Bugs: 
 
 ## printed output names of "Buzzer" and "Solenoid" were mixed up. Fixed in rev0.02.1
-The printed names of Buzzer and Solenoid where mixed up in rev0.02. make sure you use J13 for Solenoid and J5 for Buzzer or doorbell.
+The printed names of Buzzer and Solenoid were mixed up in rev0.02. make sure you use J13 for Solenoid and J5 for Buzzer or doorbell.
 
 # GPIO
 
