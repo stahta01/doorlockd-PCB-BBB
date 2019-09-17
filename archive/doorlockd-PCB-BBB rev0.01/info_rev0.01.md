@@ -2,14 +2,15 @@
 
 ## Notes/Bugs: 
 
-### Wrong pins used. Issue #2 
+### Wrong pins used. [Issue #2](https://github.com/wie-niet/doorlockd-PCB-BBB/issues/2)
+
 Disable the onboard harware in `/boot/uEnv.txt`:
 ```
 	disable_uboot_overlay_video=1 
 	disable_uboot_overlay_emmc=1
 	disable_uboot_overlay_audio=1
 ```
-### 12V barreljack connected to wrong pin. Issue #1
+### 12V barreljack connected to wrong pin. [Issue #1](https://github.com/wie-niet/doorlockd-PCB-BBB/issues/1)
 Quick fix is to create a bridge between pin3 and pin2 of the 12V barreljack.
 
 
