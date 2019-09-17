@@ -2,11 +2,11 @@
 
 # Notes/Bugs: 
 
-## printed output names of "Buzzer" and "Solenoid" were mixed up. Fixed in rev0.02.1
+## printed output names of "Buzzer" and "Solenoid" were mixed up. Fixed in rev0.02.1 [Issue #3](https://github.com/wie-niet/doorlockd-PCB-BBB/issues/3)
 The printed names of Buzzer and Solenoid were mixed up in rev0.02. make sure you use J13 for Solenoid and J5 for Buzzer or doorbell.
 
 # GPIO
-
+```
 IO	P8_17	Button1
 IO	P8_18	Button2
 IO	P8_09	Buzzer
@@ -21,9 +21,11 @@ IO	P9_14	UILED1
 IO	P9_16	UILED2
 IO	P8_19	UI_DuoLED1g
 IO	P8_13	UI_DuoLED1r
+```
 
 
 ## Components 
+```
 C1		1uF 
 C2		1uF
 C3		470u
@@ -58,14 +60,15 @@ R15		Ω DuoLED
 R16		100
 R17		2k2
 U1		TSR_1-2450
-
+```
 
 
 
 ### Ω LED 1,2,DuoLED
-color	ohm
+```
+color	  ohm
 red   	100 
 green 	 60 
 yellow	 48 
 blue  	  4
-
+```
