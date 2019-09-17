@@ -1,5 +1,9 @@
 # Info on PCB deuropener rev0.01
 
+## Preview 
+<img src="https://raw.githubusercontent.com/wie-niet/doorlockd-PCB-BBB/master/archive/doorlockd-PCB-BBB%20rev0.01/preview-pcb-rev0.01.png" alt="Preview doorlockd-PCB-BBB Rev0.01">
+
+
 ## Notes/Bugs: 
 
 ### Wrong pins used. [Issue #2](https://github.com/wie-niet/doorlockd-PCB-BBB/issues/2)
@@ -71,4 +75,5 @@ R5	   pull up   (button 2)
 R6	   220 ohm   (button 2)
 U1	   TSR 1-2450
 ```
+
 
