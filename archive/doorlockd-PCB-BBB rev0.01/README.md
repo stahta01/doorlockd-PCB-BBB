@@ -3,12 +3,7 @@
 ## Preview 
 <img src="https://raw.githubusercontent.com/wie-niet/doorlockd-PCB-BBB/master/archive/doorlockd-PCB-BBB%20rev0.01/preview-pcb-rev0.01.png" alt="Preview doorlockd-PCB-BBB Rev0.01">
 
-<object data="https://github.com/wie-niet/doorlockd-PCB-BBB/raw/master/archive/doorlockd-PCB-BBB%20rev0.01/preview-schematic-rev0.01.pdf" type="application/pdf" >
-    <embed src="https://github.com/wie-niet/doorlockd-PCB-BBB/raw/master/archive/doorlockd-PCB-BBB%20rev0.01/preview-schematic-rev0.01.pdf">
-        <p>PDF Preview of Schemantic <a href="https://github.com/wie-niet/doorlockd-PCB-BBB/blob/master/archive/doorlockd-PCB-BBB%20rev0.01/preview-schematic-rev0.01.pdf">preview-schematic-rev0.01.pdf</a> on github.</p>
-    </embed>
-</object>
-
+PDF Preview of Schemantic [preview-schematic-rev0.01.pdf](https://github.com/wie-niet/doorlockd-PCB-BBB/blob/master/archive/doorlockd-PCB-BBB%20rev0.01/preview-schematic-rev0.01.pdf) on github.
 
 
 ## Notes/Bugs: 
