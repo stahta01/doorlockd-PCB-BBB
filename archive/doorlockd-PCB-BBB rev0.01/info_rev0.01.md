@@ -3,17 +3,18 @@
 ## Notes/Bugs: 
 
 ### Wrong pins used. Issue #2 
-Disable the onboard harware in /boot/uEnv.txt:
+Disable the onboard harware in `/boot/uEnv.txt`:
+`
 	disable_uboot_overlay_video=1 
 	disable_uboot_overlay_emmc=1
 	disable_uboot_overlay_audio=1
-
+`
 ### 12V barreljack connected to wrong pin. Issue #1
 Quick fix is to create a bridge between pin3 and pin2 of the 12V barreljack.
 
 
 ## GPIO
-
+`
    P8_01/02 GND
 IO P8_21 Button2     ( MMC1_CLCK )
 IO P8_23 Button1     ( MMC1_DAT4 )
@@ -21,8 +22,6 @@ IO P8_34 UILED1      ( LCD_DATA11 )
 IO P8_36 UILED2      ( LCD_DATA10 )
 IO P8_45 UI_BiLED1g  ( LCD_DATA0 )
 IO P8_46 UI_BiLED1r  ( LCD_DATA1 )
-
-
    P9_01/02 GND
    P9_03/04 +3V3
    P9_05/06 +5V
@@ -36,10 +35,10 @@ IO P9_23 RC522_RST
 IO P9_28 UI_TriLED1r ( MCASP0 .. (audio?) )
 IO P9_42 UI_TriLED1g ( mcasp0_pins (audio?) )
    P9_43..46 GND
-
+`
 
 ## Components 
-C1    1uF Keramisch
+`C1    1uF Keramisch
 C2	   1uF Keramisch
 C3	   470u
 D1	   LED
@@ -69,5 +68,5 @@ R4	   100 ohm   (ui led 2)
 R5	   pull up   (button 2)
 R6	   220 ohm   (button 2)
 U1	   TSR 1-2450
-
+`
 
