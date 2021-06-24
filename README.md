@@ -73,6 +73,6 @@ Choose the resistors based on the LEDs you use.
 |IO|P8_13|UI_DuoLED1r|
 |IO|P8_19|UI_DuoLED1g|
 |IO|P9_16|UILED2|
-|IO|P8_09|Buzzer|
+|IO|P8_9|Buzzer|
 
 
