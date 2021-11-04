@@ -60,19 +60,19 @@ Choose the resistors based on the LEDs you use.
 ### connected IO ports
 | |port|chip,line<sup>\*1</sup>|name|
 | --- | --- | --- | --- |
-|IO|P8_17|gpio0_27|Button1|
-|IO|P9_12|gpio1_28|Solenoid|
-|IO|P9_14|gpio1_18|UILED1|
-|IO|P8_18|gpio2_1|Button2|
-|IO|P9_17|gpio0_5|RC522_SDA|
-|IO|P9_22|gpio0_2|RC522_SCK|
-|IO|P9_18|gpio0_4|RC522_MOSI|
-|IO|P9_21|gpio0_3|RC522_MISO|
-|IO|P9_15|gpio1_16|RC522_IRQ|
-|IO|P9_23|gpio1_17|RC522_RST|
-|IO|P8_13|gpio0_23|UI_DuoLED1r|
-|IO|P8_19|gpio0_22|UI_DuoLED1g|
-|IO|P9_16|gpio1_19|UILED2|
-|IO|P8_9|gpio2_5|Buzzer|
+|IO|P8_17|gpiochip0 27|Button1|
+|IO|P9_12|gpiochip1 28|Solenoid|
+|IO|P9_14|gpiochip1 18|UILED1|
+|IO|P8_18|gpiochip2 1|Button2|
+|IO|P9_17|gpiochip0 5|RC522_SDA|
+|IO|P9_22|gpiochip0 2|RC522_SCK|
+|IO|P9_18|gpiochip0 4|RC522_MOSI|
+|IO|P9_21|gpiochip0 3|RC522_MISO|
+|IO|P9_15|gpiochip1 16|RC522_IRQ|
+|IO|P9_23|gpiochip1 17|RC522_RST|
+|IO|P8_13|gpiochip0 23|UI_DuoLED1r|
+|IO|P8_19|gpiochip0 22|UI_DuoLED1g|
+|IO|P9_16|gpiochip1 19|UILED2|
+|IO|P8_9|gpiochip2 5|Buzzer|
 
 <sub>*\*1):* GPIO Chip+line for gpiod, reference taken from https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec </sub>
