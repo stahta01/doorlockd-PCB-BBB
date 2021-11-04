@@ -58,7 +58,7 @@ Choose the resistors based on the LEDs you use.
 
 
 ### connected IO ports
-| |port|gpiochip,line|name|
+| |port|chip,line<sup>\*1</sup>|name|
 | --- | --- | --- | --- |
 |IO|P8_17|gpio0_27|Button1|
 |IO|P9_12|gpio1_28|Solenoid|
@@ -75,4 +75,4 @@ Choose the resistors based on the LEDs you use.
 |IO|P9_16|gpio1_19|UILED2|
 |IO|P8_9|gpio2_5|Buzzer|
 
-<sub>gpiod): GPIO Chip+line reference taken from https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec </sub>
+<sub>*\*1):* GPIO Chip+line for gpiod, reference taken from https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec </sub>
