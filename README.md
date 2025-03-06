@@ -76,3 +76,12 @@ Choose the resistors based on the LEDs you use.
 |IO|P8_9|gpiochip2 5|Buzzer|
 
 <sub>*\*1):* GPIO Chip+line for gpiod, reference taken from https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec </sub>
+
+### Connecting PN532 board
+This board was originally designed for use with the RC522 NFC reader,
+but is also usable with the PN532 reader (which has better range and
+reliability).
+
+ - BBB SCK pin (`RC522_SCK`) is `UART2_RXD` -> connect to PN532 TX
+ - BBB MISO pin (`RC522_MISO`) is `UART2_TXD` -> connect to PN532 RX
+ - 5V can be taken from P9 pin 7 and/or 8 (needs extra pin soldered on)
